@@ -1,0 +1,71 @@
+.Home-background {
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient( to right,rgba(0,0,0,0.7) 40%,rgba(0,0,0,0.1)) ,url("https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/home-improvement/wp-content/uploads/2022/02/featured-image-landscaper.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home-heading .text-1{
+    font-size: 70px;
+    font-weight: 700;
+   
+    margin-left: 80px;
+    color: rgba(243, 236, 236, 0.729);
+    
+   
+    
+   
+}
+.home-heading{
+    padding-top: 8%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+    
+}
+.home-heading .text-2{
+    font-size: 70px;
+    font-weight: 900;
+    margin-left: 80px;
+    color: rgb(132 161 47);
+    line-height: 60px;
+    letter-spacing: 5px;
+   
+}
+.home-heading .text-3{
+    font-size: 75px;
+    font-weight: 700;
+    margin-left: 80px;
+    color: rgb(179 216 156);
+    line-height: 60px;
+    letter-spacing: 5px;
+   
+}
+.Home-background h2{
+    color: rgba(243, 236, 236, 0.729);
+    font-weight: bold;
+    margin:  20px 85px;
+
+}
+.home-btn{
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.home-btn a{
+    text-decoration: none;
+    color: rgb(6, 57, 6);
+    padding: 15px 25px;
+    margin: 50px 5px;
+    background: rgba(243, 236, 236, 0.729);
+    border-radius: 2px;
+    transition: 1sec;
+    font-weight: bold;
+}
+.home-btn a:hover{
+    border: 2px solid green;
+    color: green;
+    font-weight: bold;
+    background: transparent;
+    padding: 13px 23px;
+
+}
+

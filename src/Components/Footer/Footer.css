@@ -1,0 +1,33 @@
+.footer{
+    background: #125C13;
+    margin-top: 10%;
+   
+    
+}
+
+.footer-text{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    color: rgba(243, 236, 236, 0.729);
+    padding: 3% 0;
+}
+hr{
+    color: rgba(243, 236, 236, 0.729);
+   
+    
+    width: 85%;
+    margin: auto;
+}
+p{
+    margin-bottom: 10px;
+}
+.footer-end{
+    margin: auto;
+   
+    font-size: 16px;
+    color: rgba(243, 236, 236, 0.729);
+    text-align: center;
+    padding: 15px 0;
+}

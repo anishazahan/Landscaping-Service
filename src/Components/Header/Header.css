@@ -1,0 +1,19 @@
+.logo{
+    font-weight: 700;
+   color: rgba(243, 236, 236, 0.729);
+    margin: 25px 80px;
+}
+.logo-2{
+    color: rgb(179 216 156);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background: #125C13;
+}
+.navbar.navLink{
+    text-decoration: none;
+    font-size: 16px;
+    color: aqua;
+
+}

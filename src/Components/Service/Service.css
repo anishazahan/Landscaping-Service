@@ -1,0 +1,21 @@
+.service-header h2{
+    text-align: center;
+    color: green;
+    font-size: 40px;
+    margin-bottom: 5%;
+    font-weight: bold;
+}
+
+.services{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    margin: auto;
+    grid-gap: 25px;
+}
+.service{
+    text-align: center;
+    background-color: #75daad51;
+    box-shadow: 0 4px 10px 0 rgba(0, 128, 0, 0.388), 0 4px 10px 0 rgba(0, 128, 0, 0.388);
+    width: 350px;
+}

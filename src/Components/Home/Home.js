@@ -1,5 +1,6 @@
 import React from 'react';
-import Services from '../Sevices/Services';
+import Service from '../Service/Service';
+
 import './Home.css'
 
 const Home = () => {
@@ -22,8 +23,8 @@ const Home = () => {
                    <a href="#">About Us</a>
                </div>
             </div>
-
-               <Services></Services>
+               { <Service></Service>}
+             
 
         </div>
     );

@@ -4,6 +4,7 @@
     background-image: linear-gradient( to right,rgba(0,0,0,0.7) 40%,rgba(0,0,0,0.1)) ,url("https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/home-improvement/wp-content/uploads/2022/02/featured-image-landscaper.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 7%;
 }
 .home-heading .text-1{
     font-size: 70px;

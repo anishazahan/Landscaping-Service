@@ -1,0 +1,33 @@
+.contact-info{
+    margin: 15% 0;
+    margin: auto;
+    text-align: center;
+    color: green;
+    border: 2px solid green;
+    width: 50%;
+    box-shadow: 0 4px 10px 0 rgba(0, 128, 0, 0.388), 0 4px 10px 0 rgba(0, 128, 0, 0.388);
+   
+}
+.contact-heading{
+    color: green;
+    margin: 25px 0;
+    text-align: center;
+}
+.contact-info input{
+    margin-bottom: 25px;
+    margin-top: 0!important;
+    padding: 5px;
+}
+.contact-info textarea{
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+.btn button{
+    background-color: green;
+    padding: 7px 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 2px;
+    margin-left: -300px;
+    margin-top: 20px;
+}

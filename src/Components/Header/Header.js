@@ -8,12 +8,13 @@ const Header = () => {
             <div className="logo">
                 <h3>Land <span className='logo-2'>scaping</span> </h3>
             </div>
-            <div className=' text-primary'>
-                <Link className='navLink' to="/home">Home</Link>
-                <Link className='navLink' to="/services">Services</Link>
-                <Link className='navLink' to="/about">About Us</Link>
-                <Link className='navLink' to="/blog">Blog</Link>
-                <Link className='navLink' to="/contact">Contact</Link>
+            <div className='nav-menu'>
+                <Link  to="/home">Home</Link>
+                <Link  to="/services">Services</Link>
+                <Link  to="/about">About Us</Link>
+                <Link  to="/blog">Blog</Link>
+                <Link to="/contact">Contact</Link>
+                <Link  to="/login">Login</Link>
                
             </div>
         </div>

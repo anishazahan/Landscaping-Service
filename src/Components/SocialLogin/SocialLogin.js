@@ -1,8 +1,8 @@
 import { Button } from "react-bootstrap";
 import { useSignInWithGoogle } from "react-firebase-hooks/auth";
 import { useNavigate } from "react-router-dom";
-import auth from "../../../Firebase.init";
-import GoogleLogo from "../../../images/google_logo.png";
+import auth from "../../firebase.init";
+import GoogleLogo from "../../images/google_logo.png";
 
 const SocialLogin = () => {
   const [signInWithGoogle, user, loading, error] = useSignInWithGoogle(auth);

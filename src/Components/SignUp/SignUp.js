@@ -3,9 +3,9 @@ import "./SignUp.css";
 import { Container } from "react-bootstrap";
 import { useCreateUserWithEmailAndPassword } from "react-firebase-hooks/auth";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import auth from "../../../Firebase.init";
-import SocialLogin from "../../Shared/SocialLogin/SocialLogin";
-import Loading from "../../Shared/Loading/Loading";
+import auth from "../../firebase.init";
+import SocialLogin from "../SocialLogin/SocialLogin";
+import Loading from "../Loading/Loading";
 
 const SignUp = () => {
   const [createUserWithEmailAndPassword, user, loading, error] =
@@ -74,7 +74,7 @@ const SignUp = () => {
   return (
     <Container>
       <div className="shadow p-5 my-5 mx-auto" id="login-form">
-        <h2>Login Here</h2>
+        <h2>Please Sign-Up Here!!</h2>
         <form onSubmit={handleCreateAccount}>
           <input
             onChange={handleName}

@@ -3,9 +3,9 @@ import { useState } from "react";
 import { Container } from "react-bootstrap";
 import { useSignInWithEmailAndPassword } from "react-firebase-hooks/auth";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import auth from "../../../Firebase.init";
-import Loading from "../../Shared/Loading/Loading";
-import SocialLogin from "../../Shared/SocialLogin/SocialLogin";
+import auth from "../../firebase.init";
+import Loading from "../Loading/Loading";
+import SocialLogin from "../SocialLogin/SocialLogin";
 import "./Login.css";
 import "react-toastify/dist/ReactToastify.css";
 import { toast, ToastContainer } from "react-toastify";
@@ -116,7 +116,7 @@ const Login = () => {
               SignUP
             </Link>
           </p>
-          <SocialLogin />
+          <SocialLogin></SocialLogin>
           <ToastContainer />
         </form>
       </div>

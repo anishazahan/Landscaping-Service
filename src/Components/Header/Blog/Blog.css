@@ -1,0 +1,11 @@
+.blog{
+    margin: 15% 0;
+    width: 60%;
+    margin: auto;
+}
+.blog-heading{
+    text-align: center;
+    color: green;
+    font-size: 45px;
+    margin-bottom: 20%;
+}

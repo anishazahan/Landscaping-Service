@@ -8,6 +8,7 @@ import Blog from './Components/Header/Blog/Blog';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import Login from './Components/Login/Login';
+import RequireAuth from './Components/RequirAuth/RequireAuth';
 import Services from './Components/Sevices/Services';
 import SignUp from './Components/SignUp/SignUp';
 
@@ -23,7 +24,7 @@ function App() {
           <Route path='/login' element={<Login></Login>}></Route>
           <Route path='/signup' element={<SignUp></SignUp>}></Route>
           <Route path='/contact' element={ 
-               <Contact></Contact>
+              <RequireAuth> <Contact></Contact> </RequireAuth>
 
           }></Route>
          

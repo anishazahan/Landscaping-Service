@@ -1,7 +1,7 @@
 .logo{
     font-weight: 700;
    color: rgba(243, 236, 236, 0.729);
-    margin: 25px 80px;
+    margin-left: 80px;
 }
 .logo-2{
     color: rgb(179 216 156);
@@ -10,11 +10,28 @@
     display: flex;
     justify-content: space-between;
     background: #125C13;
+    height: 80px;
+    align-items: center;
 }
 .nav-menu a{
     text-decoration: none;
     font-size: 16px;
-    color: aqua;
-    margin: 0 10px;
+    color: white;
+    padding: 0 10px;
+   
 
+}
+.nav-menu a:hover{
+    text-decoration: none;
+    color: aqua;
+}
+.nav-menu{
+    margin-right: 25px;
+}
+.nav-menu button{
+    padding: 5px 15px;
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
 }

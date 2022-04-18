@@ -4,25 +4,7 @@ import './Contact.css'
 const Contact = () => {
     return (
         <div>
-            {/* <h2 className='contact-heading'>Contact us</h2>
-            <div className="contact-info">
-                <div className="name">
-                <label htmlFor="">Your Name</label>
-                <input type="text" />
-                </div>
-            <div className="contact-info">
-                <div className="name">
-                <label htmlFor="">Your email or Phone</label>
-                <input type="text" />
-                </div>
-            <div className="contact-info">
-                <div className="name">
-                <label htmlFor="">Your Message</label>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-                </div>
-               
-            </div>
-           <button>Submit</button> */}
+            
 
            <h2 className='contact-heading'>This is my Contact</h2>
            <div className="contact-info">
